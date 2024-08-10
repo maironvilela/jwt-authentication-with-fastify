@@ -27,31 +27,7 @@ Nesse projeto estarei apresentando como realizar a authenticação de usuario at
 
 ## Arquitetura do projeto
 
-```typescript
-jwt-authentication-with-fastify
-  |
-  └──prisma: 'Local onde será armazenado o schema do banco de dados e as migrations'
-  |
-  └── src: 'Contem o código fonte da aplicação'
-        └── data: 'É a camada que implementará os casos de usos definido na camada "domain"'
-        |     └── protocols: 'Definimos as interfaces dos recursos utilizados pelo caso de uso'
-        |     └── services: 'Implementação dos casos de usos definidos na camada "domain"'
-        |
-        └── domain: 'É o core da aplicação. Onde é definido toda regra de negócio da aplicação'
-        |     └── models: 'Local onde ficará os modelos de dados utilizado'
-        |     └── usecases: 'Definimos as regras de negócio'
-        |
-        └── infra: 'Camada onde faremos o acesso ao banco de dados'
-        |
-        └── main: 'Camada responsável pelo acesso a bibliotecas externas'
-        |
-        └── presentation: 'Local onde implementaremos os controllers da aplicação'
-        |
-        └── validation: 'contem as validações do sistema'
-
-```
-
-## Princípios do SOLID aplicado
+![alt text](./_images-github/image4.png)
 
 ## Pré-Requisitos
 
@@ -113,8 +89,8 @@ npx prisma migrate dev
 
 ### Credenciais válidas
 
-![alt text](image.png)
+![alt text](./_images-github/image.png)
 
 ### Credenciais inválidas
 
-![alt text](image-2.png)
+![alt text](./_images-github/image-2.png)
