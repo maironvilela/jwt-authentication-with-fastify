@@ -1,3 +1,4 @@
+ 
 <h1 align="center">
      Autenticação com Fastify utilizando token JWT 
  </h1>
@@ -10,7 +11,12 @@
     <a href="#testes-utilizando-o-insomnia">Testes utilizando o INSOMNIA</a> 
 </p>
 
+  [![Template do projeto challenge-decodificador-texto ](https://sa-east-1.graphassets.com/clzr3qy8z0jvv07lsbu9dh3xe/clzr4v57b1guv07lwasir4wk8)]() 
+ 
+
 ## Sobre o Projeto
+
+
 
 A autenticação de usuários é um aspecto fundamental em muitos projetos, e o uso de tokens JWT (JSON Web Tokens) é uma abordagem popular para garantir a segurança das rotas e recursos da aplicação.
 
